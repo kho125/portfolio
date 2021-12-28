@@ -84,9 +84,7 @@ export const ProfileExplanationText = styled.div`
   letter-spacing: 0.5px;
 `;
 
-export const ProjectExplanationWrapper = styled.div`
-  /* border: 1px solid black; */
-`;
+export const ProjectExplanationWrapper = styled.div``;
 
 export const ProjectExplanationTextWrapper = styled.div`
   width: 1400px;
@@ -197,7 +195,6 @@ export const AboutWrapper = styled.div`
   margin-top: 80px;
   width: 1400px;
   height: 550px;
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -207,7 +204,6 @@ export const AboutWrapper = styled.div`
 export const AboutNotionWrapper = styled.div`
   width: 300px;
   height: 400px;
-  /* border: 1px solid blue; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -222,7 +218,6 @@ export const AboutNotion = styled.img`
 export const AboutGithubWrapper = styled.div`
   width: 300px;
   height: 400px;
-  /* border: 1px solid blue; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -237,7 +232,6 @@ export const AboutGithub = styled.img`
 export const AboutBlogWrapper = styled.div`
   width: 300px;
   height: 400px;
-  /* border: 1px solid blue; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -295,7 +289,6 @@ export const ProjectsWrapper = styled.div`
   margin-top: 140px;
   width: 1400px;
   height: 550px;
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -305,7 +298,6 @@ export const ProjectsWrapper = styled.div`
 export const ProjectBoardWrapper = styled.div`
   width: 350px;
   height: 560px;
-  /* border: 1px solid black; */
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -326,7 +318,6 @@ export const ProjectBoardWrapper = styled.div`
 export const ProjectMarketWrapper = styled.div`
   width: 350px;
   height: 560px;
-  /* border: 1px solid black; */
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -347,7 +338,6 @@ export const ProjectMarketWrapper = styled.div`
 export const ProjectNativeWrapper = styled.div`
   width: 350px;
   height: 560px;
-  /* border: 1px solid black; */
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -375,7 +365,6 @@ export const ProjectsImg = styled.img`
 export const MyProjectStackWrapper = styled.div`
   width: 250px;
   height: 250px;
-  /* border: 1px solid red; */
   padding-top: 20px;
   display: flex;
   flex-direction: column;
@@ -400,7 +389,6 @@ export const MyProjectStackTextWrapper = styled.div`
   width: 260px;
   display: flex;
   flex-direction: column;
-  /* border: 1px solid red; */
 `;
 
 export const MyProjectStackText = styled.div`
