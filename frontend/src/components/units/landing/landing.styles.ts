@@ -116,7 +116,7 @@ export const ProjectLanguage = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #fff;
   padding-top: 35px;
   border-radius: 20px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
@@ -125,7 +125,7 @@ export const ProjectLanguage = styled.div`
 export const ProjectFramework = styled.div`
   width: 300px;
   height: 450px;
-  background-color: #ffffff;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -137,7 +137,7 @@ export const ProjectFramework = styled.div`
 export const ProjectNetwork = styled.div`
   width: 300px;
   height: 450px;
-  background-color: #ffffff;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -149,7 +149,7 @@ export const ProjectNetwork = styled.div`
 export const ProjectGeneral = styled.div`
   width: 300px;
   height: 450px;
-  background-color: #ffffff;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -263,11 +263,12 @@ export const DetailButton = styled.div`
   margin-top: 80px;
   cursor: pointer;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
   :hover {
-    background-color: #1450f9;
-    color: #ffffff;
+    background-color: #efefef;
+    color: #000;
     transition: 0.5s;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.4);
   }
 `;
 
@@ -280,12 +281,13 @@ export const TopButton = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #fff;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  transition: 0.3s;
   :hover {
-    background-color: #1450f9;
-    transition: 0.5s;
-    color: #ffffff;
+    background-color: #ddd;
+    transition: 0.3s;
+    color: #000;
   }
 `;
 
@@ -311,11 +313,12 @@ export const ProjectBoardWrapper = styled.div`
   padding-top: 20px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   background-color: #e0ecf8;
+  transition: 0.3s;
   :hover {
-    background-color: #1450f9;
+    background-color: #575fcf;
     cursor: pointer;
-    color: #ffffff;
-    transition: 0.5s;
+    color: #fff;
+    transition: 0.3s;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.3);
   }
 `;
@@ -331,11 +334,12 @@ export const ProjectMarketWrapper = styled.div`
   padding-top: 20px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   background-color: #e0ecf8;
+  transition: 0.3s;
   :hover {
-    background-color: #1450f9;
+    background-color: #575fcf;
     cursor: pointer;
-    transition: 0.5s;
-    color: #ffffff;
+    transition: 0.3s;
+    color: #fff;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.3);
   }
 `;
@@ -351,11 +355,12 @@ export const ProjectNativeWrapper = styled.div`
   padding-top: 20px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   background-color: #e0ecf8;
+  transition: 0.3s;
   :hover {
-    background-color: #1450f9;
+    background-color: #575fcf;
     cursor: pointer;
-    transition: 0.5s;
-    color: #ffffff;
+    transition: 0.3s;
+    color: #fff;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.3);
   }
 `;
@@ -382,7 +387,7 @@ export const MyProjectStackTitle = styled.div`
   font-weight: 600;
   width: 160px;
   height: 40px;
-  background-color: #1450f9;
+  background-color: #8e8e8e;
   color: white;
   display: flex;
   justify-content: center;
