@@ -37,7 +37,7 @@ import { v4 as uuidv4 } from "uuid";
 export default function BoardListUI(props: IBoardListUIProps) {
   return (
     <Wrapper>
-      <BestTitle>베스트 게시글</BestTitle>
+      <BestTitle>게시글</BestTitle>
       {/* <Bests> */}
         {/* @ts-ignore */}
         {/* {props.bestData?.fetchUseditemsOfTheBest.map((data: any) => (

@@ -18,7 +18,7 @@ export const InnerWrapper = styled.div`
 
 export const InnerLogo = styled.div`
   font-size: 60px;
-  font-weight: bold;
+  font-weight: 700;
   color: #fff;
   cursor: pointer;
   margin-top: 8px;

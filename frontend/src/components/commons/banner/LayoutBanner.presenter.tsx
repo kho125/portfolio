@@ -48,8 +48,6 @@ export default function LayoutBannerUI(props) {
             src={`https://storage.googleapis.com/${props.best?.fetchUseditemsOfTheBest[3].images[0]}`}
           />
         </SliderImage4>
-
-        {/* 예네들을 안쪽에 옮길 수 있는 방법은 없나  */}
         {/* https://react-slick.neostack.com/docs/example/custom-paging/ */}
       </Slider>
     </Wrapper>

@@ -8,7 +8,7 @@ export const Navigation = styled.div`
 
 export const Menu = styled.div`
   display: flex;
-  justify-content: center; // 중앙 같지 않은 중앙
+  justify-content: center;
   padding: 18px 0;
 `;
 
