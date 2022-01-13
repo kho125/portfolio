@@ -18,7 +18,7 @@ export default function Login() {
   const [loginuser] = useMutation(LOGIN_USER);
   const { setAccessToken } = useContext(GlobalContext);
 
-  function onChangeInputs(event) {
+  function onChangeInputs(event: any) {
     const newInputs = {
       ...inputs,
       [event.target.name]: event.target.value,
@@ -33,7 +33,7 @@ export default function Login() {
     setInputsErrors({ ...inputsErrors, [event.target.name]: "" });
   }
 
-  async function onClickSubmit(event) {
+  async function onClickSubmit(event: any) {
     setInputsErrors({
       email: /\w+@\w+\.com$/.test(inputs.email)
         ? ""
