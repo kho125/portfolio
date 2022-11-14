@@ -19,7 +19,7 @@ export default function LayoutFooterUI() {
         <ContentsWrapper>
           <Contents> 제작자 : 김경호</Contents>
           <Contents> 연락처 : 010-6413-6116</Contents>
-          <Contents> 이메일 : kyeongho94@gmail.com</Contents>
+          <Contents> 이메일 : roqkf125@gmail.com</Contents>
           <Contents> 깃허브 : https://github.com/kho125 </Contents>
           <Version> 2.3.2 ver. </Version>
         </ContentsWrapper>

@@ -62,7 +62,7 @@ export default function LandingUI() {
   };
 
   const onClickBlog = () => {
-    window.open("https://jyamin.tistory.com/category");
+    window.open("https://jyamin.tistory.com/category/code.camp");
   };
 
   const onClickBoard = () => {
@@ -169,8 +169,7 @@ export default function LandingUI() {
                 <AboutNotion src="myprofile/notion.png" />
                 <Fade bottom>
                   <DetailButton onClick={onClickNotion}>
-                    {" "}
-                    이력서 자세히 보기{" "}
+                    이력서 자세히 보기
                   </DetailButton>
                 </Fade>
               </AboutNotionWrapper>
@@ -178,8 +177,7 @@ export default function LandingUI() {
                 <AboutGithub src="myprofile/github.png" />
                 <Fade bottom>
                   <DetailButton onClick={onClickGithub}>
-                    {" "}
-                    Github 자세히 보기{" "}
+                    Github 자세히 보기
                   </DetailButton>
                 </Fade>
               </AboutGithubWrapper>
@@ -187,8 +185,7 @@ export default function LandingUI() {
                 <AboutBlog src="myprofile/tistory.png" />
                 <Fade bottom>
                   <DetailButton onClick={onClickBlog}>
-                    {" "}
-                    블로그 자세히 보기{" "}
+                    블로그 자세히 보기
                   </DetailButton>
                 </Fade>
               </AboutBlogWrapper>
@@ -262,13 +259,9 @@ export default function LandingUI() {
                         </MyProjectStackText>
                         <MyProjectStackText> - TypeScript </MyProjectStackText>
                         <MyProjectStackText>
-                          {" "}
-                          - Styled-Component{" "}
+                          - Styled-Component
                         </MyProjectStackText>
-                        <MyProjectStackText>
-                          {" "}
-                          - Apollo-Client{" "}
-                        </MyProjectStackText>
+                        <MyProjectStackText>- Apollo-Client</MyProjectStackText>
                         <MyProjectStackText> - GraphQL</MyProjectStackText>
                         <MyProjectStackText> - Firebase </MyProjectStackText>
                       </Fade>
